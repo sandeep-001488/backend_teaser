@@ -7,7 +7,11 @@ const githubData={
     "name":"sandeep",
     "college":"IIIT Ranchi"
 }
-
+const  stu_data={
+    "name":"Sandeep Kumar",
+    "Roll":1113,
+    "Branch":"CSE"
+}
 app.get("/",(req,res)=>
 {
     res.send("starting with chai or code");
@@ -16,6 +20,10 @@ app.get("/",(req,res)=>
 app.get("/login",(req,res)=>
 {
     res.send("login here with code");
+})
+app.get("/studata",(req,res)=>
+{
+    res.send(stu_data);
 })
 app.get("/github",(req,res)=>
 {
