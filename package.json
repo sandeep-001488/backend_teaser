@@ -1,0 +1,21 @@
+{
+  "name": "tea_code",
+  "version": "1.0.0",
+  "description": "staring with advanced backend",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "code",
+    "and",
+    "backend"
+  ],
+  "author": "sandeep kumar",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2"
+  }
+}
